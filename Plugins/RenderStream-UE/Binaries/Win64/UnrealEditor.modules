@@ -1,0 +1,8 @@
+{
+	"BuildId": "19505902",
+	"Modules": 
+	{
+		"RenderStream": "UnrealEditor-RenderStream.dll",
+		"RenderStreamEditor": "UnrealEditor-RenderStreamEditor.dll"
+	}
+}

@@ -1,0 +1,99 @@
+/MANIFEST:EMBED
+/MANIFESTINPUT:"..\Build\Windows\Resources\Default-Win64.manifest"
+/NOLOGO
+/DEBUG:FULL
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/FIXED:No
+/NXCOMPAT
+/STACK:12000000
+/DELAY:UNLOAD
+/DLL
+/PDBALTPATH:%_PDB%
+/OPT:NOREF
+/OPT:NOICF
+/INCREMENTAL:NO
+/ignore:4199
+/ignore:4099
+/DELAYLOAD:"d3d12.dll"
+/DELAYLOAD:"DBGHELP.DLL"
+/LIBPATH:"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326\lib\x64"
+/LIBPATH:"C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\lib\um\x64"
+/LIBPATH:"C:\Program Files (x86)\Windows Kits\10\lib\10.0.20348.0\ucrt\x64"
+/LIBPATH:"C:\Program Files (x86)\Windows Kits\10\lib\10.0.20348.0\um\x64"
+/NODEFAULTLIB:"LIBCMT"
+/NODEFAULTLIB:"LIBCPMT"
+/NODEFAULTLIB:"LIBCMTD"
+/NODEFAULTLIB:"LIBCPMTD"
+/NODEFAULTLIB:"MSVCRTD"
+/NODEFAULTLIB:"MSVCPRTD"
+/NODEFAULTLIB:"LIBC"
+/NODEFAULTLIB:"LIBCP"
+/NODEFAULTLIB:"LIBCD"
+/NODEFAULTLIB:"LIBCPD"
+/FUNCTIONPADMIN
+"D:\RenderStream Projects\Live_Denon\Intermediate\Build\Win64\Denon_X_DisguiseEditor\Development\Engine\SharedPCH.Engine.NonOptimized.ShadowErrors.h.obj"
+"D:\RenderStream Projects\Live_Denon\Plugins\RenderStream-UE\Intermediate\Build\Win64\UnrealEditor\Development\RenderStream\Module.RenderStream.cpp.obj"
+"D:\RenderStream Projects\Live_Denon\Plugins\RenderStream-UE\Intermediate\Build\Win64\UnrealEditor\Development\RenderStream\Module.RenderStream.gen.cpp.obj"
+"D:\RenderStream Projects\Live_Denon\Plugins\RenderStream-UE\Intermediate\Build\Win64\UnrealEditor\Development\RenderStream\Default.rc2.res"
+"ThirdParty\Windows\DirectX\Lib\x64\dxgi.lib"
+"ThirdParty\Windows\DirectX\Lib\x64\d3d9.lib"
+"ThirdParty\Windows\DirectX\Lib\x64\d3d11.lib"
+"ThirdParty\Windows\DirectX\Lib\x64\dxguid.lib"
+"ThirdParty\Windows\DirectX\Lib\x64\dinput8.lib"
+"ThirdParty\Windows\DirectX\Lib\x64\X3DAudio.lib"
+"ThirdParty\Windows\DirectX\Lib\x64\xapobase.lib"
+"ThirdParty\Windows\DirectX\Lib\x64\XAPOFX.lib"
+"ThirdParty\Windows\DirectX\Lib\x64\dxgi.lib"
+"ThirdParty\Windows\DirectX\Lib\x64\d3d12.lib"
+"ThirdParty\Windows\DirectX\Lib\x64\dxguid.lib"
+"..\Intermediate\Build\Win64\UnrealEditor\Development\CoreUObject\UnrealEditor-CoreUObject.lib"
+"..\Intermediate\Build\Win64\UnrealEditor\Development\Engine\UnrealEditor-Engine.lib"
+"..\Intermediate\Build\Win64\UnrealEditor\Development\Slate\UnrealEditor-Slate.lib"
+"..\Intermediate\Build\Win64\UnrealEditor\Development\SlateCore\UnrealEditor-SlateCore.lib"
+"..\Intermediate\Build\Win64\UnrealEditor\Development\CinematicCamera\UnrealEditor-CinematicCamera.lib"
+"..\Intermediate\Build\Win64\UnrealEditor\Development\RHI\UnrealEditor-RHI.lib"
+"..\Intermediate\Build\Win64\UnrealEditor\Development\RHICore\UnrealEditor-RHICore.lib"
+"..\Intermediate\Build\Win64\UnrealEditor\Development\D3D11RHI\UnrealEditor-D3D11RHI.lib"
+"..\Intermediate\Build\Win64\UnrealEditor\Development\D3D12RHI\UnrealEditor-D3D12RHI.lib"
+"..\Intermediate\Build\Win64\UnrealEditor\Development\RenderCore\UnrealEditor-RenderCore.lib"
+"..\Intermediate\Build\Win64\UnrealEditor\Development\Projects\UnrealEditor-Projects.lib"
+"..\Intermediate\Build\Win64\UnrealEditor\Development\Json\UnrealEditor-Json.lib"
+"..\Intermediate\Build\Win64\UnrealEditor\Development\JsonUtilities\UnrealEditor-JsonUtilities.lib"
+"..\Plugins\Runtime\nDisplay\Intermediate\Build\Win64\UnrealEditor\Development\DisplayCluster\UnrealEditor-DisplayCluster.lib"
+"..\Intermediate\Build\Win64\UnrealEditor\Development\HeadMountedDisplay\UnrealEditor-HeadMountedDisplay.lib"
+"..\Intermediate\Build\Win64\UnrealEditor\Development\Core\UnrealEditor-Core.lib"
+"..\Intermediate\Build\Win64\UnrealEditor\Development\Sockets\UnrealEditor-Sockets.lib"
+"..\Intermediate\Build\Win64\UnrealEditor\Development\Networking\UnrealEditor-Networking.lib"
+"..\Intermediate\Build\Win64\UnrealEditor\Development\InputCore\UnrealEditor-InputCore.lib"
+"..\Intermediate\Build\Win64\UnrealEditor\Development\UMG\UnrealEditor-UMG.lib"
+"..\Plugins\Compositing\OpenColorIO\Intermediate\Build\Win64\UnrealEditor\Development\OpenColorIO\UnrealEditor-OpenColorIO.lib"
+"delayimp.lib"
+"wininet.lib"
+"rpcrt4.lib"
+"ws2_32.lib"
+"dbghelp.lib"
+"comctl32.lib"
+"Winmm.lib"
+"kernel32.lib"
+"user32.lib"
+"gdi32.lib"
+"winspool.lib"
+"comdlg32.lib"
+"advapi32.lib"
+"shell32.lib"
+"ole32.lib"
+"oleaut32.lib"
+"uuid.lib"
+"odbc32.lib"
+"odbccp32.lib"
+"netapi32.lib"
+"iphlpapi.lib"
+"setupapi.lib"
+"dwmapi.lib"
+"imm32.lib"
+/OUT:"D:\RenderStream Projects\Live_Denon\Plugins\RenderStream-UE\Binaries\Win64\UnrealEditor-RenderStream.dll"
+/IMPLIB:"D:\RenderStream Projects\Live_Denon\Plugins\RenderStream-UE\Intermediate\Build\Win64\UnrealEditor\Development\RenderStream\UnrealEditor-RenderStream.suppressed.lib"
+/PDB:"D:\RenderStream Projects\Live_Denon\Plugins\RenderStream-UE\Binaries\Win64\UnrealEditor-RenderStream.pdb"
+/ignore:4078

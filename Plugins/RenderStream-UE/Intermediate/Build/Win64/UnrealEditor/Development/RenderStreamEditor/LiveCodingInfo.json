@@ -1,0 +1,9 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.RenderStreamEditor.cpp.obj": [
+			"RenderStreamCustomization.cpp.obj",
+			"RenderStreamEditorModule.cpp.obj"
+		]
+	}
+}

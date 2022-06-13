@@ -1,0 +1,11 @@
+{
+    "channels": [
+        "RS_Main_Cam"
+    ],
+    "schema": [
+        {
+            "name": "ThirdPersonMap",
+            "parameters": []
+        }
+    ]
+}

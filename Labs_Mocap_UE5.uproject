@@ -66,6 +66,10 @@
 		{
 			"Name": "NiagaraFluids",
 			"Enabled": true
+		},
+		{
+			"Name": "RenderStream-UE",
+			"Enabled": true
 		}
 	]
 }
