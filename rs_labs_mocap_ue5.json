@@ -1,5 +1,6 @@
 {
     "channels": [
+        "RS_AR_Cam",
         "RS_Main_Cam"
     ],
     "schema": [
